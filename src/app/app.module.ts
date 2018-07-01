@@ -8,8 +8,13 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { YieldComponent } from './yield/yield.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RouterModule, Routes } from '@angular/router';
 
-
+const routes: Routes = [
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: 'login', component: LoginComponent },
+  { path: 'dashboard', component: DashboardComponent },
+];
 
 @NgModule({
   declarations: [
@@ -22,7 +27,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavbarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [ { provide: LOCALE_ID, useValue: 'he' } ],
   bootstrap: [AppComponent]
