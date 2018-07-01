@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { YieldComponent } from './yield/yield.component';
 import { TransactionComponent } from './transaction/transaction.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -17,7 +18,8 @@ import { TransactionComponent } from './transaction/transaction.component';
     DashboardComponent,
     PortfolioComponent,
     YieldComponent,
-    TransactionComponent
+    TransactionComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
