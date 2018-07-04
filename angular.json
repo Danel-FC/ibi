@@ -18,6 +18,10 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
+            "i18nFile": "src/locale/messages.he.xlf",
+            "i18nLocale": "he",
+            "i18nFormat": "xlf",
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -53,6 +57,13 @@
             "browserTarget": "ibi:build"
           },
           "configurations": {
+            "he": {
+              "aot": true,
+              "outputPath": "dist/my-project-he/",
+              "i18nFile": "src/locale/messages.he.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "he"
+            },
             "production": {
               "browserTarget": "ibi:build:production"
             }

@@ -11,6 +11,7 @@ hr {
     display: inline-flex;
     width: 1170px;
     height: 70px;
+    margin: auto;
 }
 
 .danel-footer {
@@ -58,4 +59,11 @@ span {
 .nav-links{
     width: 1170px;
     float: right;
+}
+
+.separator{
+    display: inline-block;
+    background-color: #CCCCCC;
+    height: 2px;
+    
 }
