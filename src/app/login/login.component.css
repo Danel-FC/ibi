@@ -57,19 +57,21 @@
 }
 
 .login-btn{
+    
 }
 
-.btn-container{
-    border: 1px solid green;
+
+
+ .btn-container{
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    display: table;
-    
+    position:relative;
   }
 
 .btn-container > button{
-    display: table-cell;
-      vertical-align: bottom;
-  }
+    position: absolute;
+    bottom:   0;
+    left: 0;
+  } 
