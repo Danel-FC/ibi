@@ -4,19 +4,22 @@
    grid-template-rows: 50px auto;
    margin: 50px;
    justify-items: center;
-   grid-gap: 10px;
+   grid-gap: 0px 30px;
 }
 
 .login-box{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     border: 1px solid black;
+    justify-self: stretch;
+    padding: 10px;
 }
 
 .register-box{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     border: 1px solid black;
+    justify-self: stretch;
 }
 
 .login-box-title{
@@ -34,3 +37,39 @@
     grid-row: 1 / 2;
     justify-self: start;
 }
+
+.inner-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3, 40px);
+}
+
+.login-input{
+    grid-column: 1 / span 2;
+}
+
+.login-show-pass{
+    justify-self: start;
+}
+
+.login-forgot{
+
+}
+
+.login-btn{
+}
+
+.btn-container{
+    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+    
+  }
+
+.btn-container > button{
+    display: table-cell;
+      vertical-align: bottom;
+  }
