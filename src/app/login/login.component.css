@@ -1,7 +1,36 @@
-.card-deck{
-    display: flex;
+.login-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 50px auto;
+   margin: 50px;
+   justify-items: center;
+   grid-gap: 10px;
 }
 
-div.card-deck{
-    display: inline-flex;
+.login-box{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border: 1px solid black;
+}
+
+.register-box{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border: 1px solid black;
+}
+
+.login-box-title{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: start;
+}
+
+.login-box-title > h5{
+    display: inline;
+}
+
+.register-box-title{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: start;
 }

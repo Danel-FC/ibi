@@ -4,7 +4,7 @@
     <body>      
       <trans-unit id="e0d44c5a21d97b80b841c1aa2bc73c540efe82c4" datatype="html">
         <source>secondary-header</source>
-        <target> | ניתוח תיקי השקעות</target>
+        <target>ניתוח תיקי השקעות</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">4</context>

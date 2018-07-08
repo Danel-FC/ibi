@@ -15,11 +15,14 @@ import { HomeComponent } from './home/home.component';
 import localeHe from '@angular/common/locales/he';
 import localHeExtra from '@angular/common/locales/extra/he';
 import { registerLocaleData } from '@angular/common';
+import { Home2Component } from './home2/home2.component';
+import { Home3Component } from './home3/home3.component';
+import { Login2Component } from './login2/login2.component';
 registerLocaleData(localeHe, 'he-IL', localHeExtra);
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
-  { path: 'login', component: LoginComponent },
+  { path: 'login', component: HomeComponent },
   { path: 'dashboard', component: DashboardComponent },
 ];
 
@@ -32,7 +35,10 @@ const routes: Routes = [
     YieldComponent,
     TransactionComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    Home2Component,
+    Home3Component,
+    Login2Component
   ],
   imports: [
     BrowserModule,

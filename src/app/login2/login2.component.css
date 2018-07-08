@@ -1,0 +1,7 @@
+.card-deck{
+    display: flex;
+}
+
+div.card-deck{
+    display: inline-flex;
+}

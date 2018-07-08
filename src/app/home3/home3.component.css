@@ -1,0 +1,94 @@
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    '. . header header header header . .'
+    'menu menu menu menu menu menu menu menu'
+    '. . content content content content . .'
+    'footer footer footer footer footer footer footer footer';
+  grid-gap: 0px;
+  background-color: #2196F3;
+  padding: 0px;
+  direction: rtl;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 130px 400px auto;
+  grid-gap: 10px;
+  /* grid-template-areas:
+    'logo main-header secondary-header acc-manager'
+    'logo data-date data-date data-date'; */
+    
+}
+
+.title{
+  justify-self: start;
+  align-self: center;
+}
+
+.title > h2{
+  display: inline;
+}
+
+.title > h4{
+  display: inline;
+}
+
+.header > div{
+  background-color: red;
+}
+
+.data{
+  display: grid;
+  grid-auto-rows: auto auto;
+}
+
+.acc-manager{
+  justify-self: end;
+}
+
+.acc-manager> h4{
+  display: inline;
+  padding: 10px;
+}
+
+.acc-manager> select{
+  display: inline;
+}
+
+.data-date{
+  justify-self: end;
+}
+
+.menu{
+  display: grid;
+  grid-template-areas: 
+  '. nav nav nav profile . .'
+}
+
+.nav-links{
+  grid-area: nav;
+  justify-self: stretch;
+  background-color: yellow;
+}
+
+.profile{
+  grid-area: profile;
+  justify-self: end;
+  background-color: yellow;
+}
+
+.menu > li{
+  display: inline;
+}

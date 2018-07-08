@@ -13,16 +13,23 @@
         <source>header</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home2/home2.component.ts</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e0d44c5a21d97b80b841c1aa2bc73c540efe82c4" datatype="html">
         <source>secondary-header</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">7</context>
         </context-group>
-        <note priority="1" from="description">secondary-header</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home2/home2.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
