@@ -1,34 +1,40 @@
 <div class="login-grid">
   <div class="login-box-title">
       <!-- <img src="../../assets/holdings-page-icon.png"> -->
-      <h5>Login</h5>
+      <h5 i18n>Login</h5>
   </div>
   <div class="login-box inner-grid">
-    <div class="login-input">
-      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+    <div class="login-form">
+        <div class="login-input">
+            <input type="email" i18n class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="login-input">
+            <input type="password" i18n class="form-control" placeholder="Password">
+          </div>
+          <div class="login-show-pass">        
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label mx-3" i18n>Show pass</label>
+          </div>
+          <div class="login-forgot">
+              <a href="#" class="btn-link" i18n>forgot user</a> / <a href="#" i18n>forgot pass</a>
+          </div>
+          <div class="login-input login-btn">
+            <div class="btn-container">
+              <button type="submit" class="btn btn-secondary" i18n>Submit</button>
+            </div>
+          </div>
     </div>
-    <div class="login-input">
-      <input type="password" class="form-control" placeholder="Password">
-    </div>
-    <div class="login-show-pass">        
-      <input type="checkbox" class="form-check-input">
-      <label class="form-check-label mx-3">Show pass</label>
-    </div>
-    <div class="login-forgot">
-        <a href="#" class="btn-link">forgot user</a> / <a href="#">forgot pass</a>
-    </div>
-    <div class="login-input login-btn">
-      <div class="btn-container">
-        <button type="submit" class="btn btn-secondary" (click)="submit()">Submit</button>
-      </div>
-    </div>
+    
   </div>
   <div class="register-box-title">
       <!-- <img src="../../assets/holdings-page-icon.png"> -->
-      <h5>Register</h5>
+      <h5 i18n>Register</h5>
   </div>
   <div class="register-box inner-grid">
-      <p>Special title treatment. With supporting text below as a natural lead-in to additional content.Special title treatment. With supporting text below as a natural lead-in to additional content. Special title treatment. With supporting text below as a natural lead-in to additional content.Special title treatment. With supporting text below as a natural lead-in to additional content. Special title treatment. With supporting text below as a natural lead-in to additional content.</p>
-      <button type="submit" class="btn btn-secondary">Special title treatment</button>
+      <p i18n>Special title treatment. With supporting text below as a natural lead-in to additional content. Special title treatment. With supporting text below as a natural lead-in to additional content.Special title treatment. With supporting text below as a natural lead-in to additional content. Special title treatment. With supporting text below as a natural lead-in to additional content.</p>
+      <button type="submit" class="btn btn-secondary" i18n>Special title treatment</button>
   </div>
+  <!-- <div class="btn-register-container">
+      
+  </div> -->
 </div>

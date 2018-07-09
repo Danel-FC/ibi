@@ -20,6 +20,7 @@
     grid-row: 2 / 3;
     border: 1px solid black;
     justify-self: stretch;
+    padding: 10px;
 }
 
 .login-box-title{
@@ -40,8 +41,9 @@
 
 .inner-grid{
    display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: repeat(3, 40px);
+   /* grid-template-columns: 1fr 1fr; */
+   /* grid-template-rows: 40px 40px 40px 40px; */
+   /* grid-auto-rows: minmax(40px, auto); */
 }
 
 .login-input{
@@ -60,9 +62,18 @@
     
 }
 
+.register-box > p{
+    grid-column: 1 / span 2;
+    text-align: right;
+}
 
+.login-form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(40px, auto); 
+}
 
- .btn-container{
+.btn-container{
     margin: 0;
     padding: 0;
     height: 100%;
@@ -75,3 +86,7 @@
     bottom:   0;
     left: 0;
   } 
+
+  .btn-register-container{
+    grid-column: 2 / 3;
+  }
