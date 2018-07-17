@@ -1,92 +1,41 @@
 .login-grid{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 50px auto;
-   margin: 50px;
-   justify-items: center;
-   grid-gap: 0px 30px;
+  margin: 10em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: stretch;
+  grid-column-gap: 5em;
 }
 
-.login-box{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    border: 1px solid black;
-    justify-self: stretch;
-    padding: 10px;
+.login-grid-item{
+    margin: 0;
 }
 
-.register-box{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    border: 1px solid black;
-    justify-self: stretch;
-    padding: 10px;
+.login-subgrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
 }
 
-.login-box-title{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+.login-subgrid-item1{
     justify-self: start;
 }
 
-.login-box-title > h5{
-    display: inline;
+.login-subgrid-item2{
+    justify-self: end;
 }
 
-.register-box-title{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    justify-self: start;
-}
-
-.inner-grid{
-   display: grid;
-   /* grid-template-columns: 1fr 1fr; */
-   /* grid-template-rows: 40px 40px 40px 40px; */
-   /* grid-auto-rows: minmax(40px, auto); */
-}
-
-.login-input{
+.login-subgrid-input{
     grid-column: 1 / span 2;
 }
 
-.login-show-pass{
-    justify-self: start;
+.login-subgrid-input > input{
+    width: 100%;
 }
 
-.login-forgot{
-
-}
-
-.login-btn{
-    
-}
-
-.register-box > p{
-    grid-column: 1 / span 2;
+.login-grid-item > h4{
     text-align: right;
 }
 
-.login-form{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-auto-rows: minmax(40px, auto); 
+.login-grid-item > p{
+    text-align: right;
 }
-
-.btn-container{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    position:relative;
-  }
-
-.btn-container > button{
-    position: absolute;
-    bottom:   0;
-    left: 0;
-  } 
-
-  .btn-register-container{
-    grid-column: 2 / 3;
-  }

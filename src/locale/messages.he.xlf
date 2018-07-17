@@ -1,68 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
-    <body>      
+    <body>
       <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html">
-        <target>כניסה</target>
         <source>Login</source>
+        <target>כניסה</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">3</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="7ee76d16596c9f9b3384d819da12685bb3b78d8e" datatype="html">
-        <source>Show pass</source>
-        <target>הצג סיסמה</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0342c7b6fd3ad99ee1cb6a6e59299603edba72cb" datatype="html">
-        <source>forgot user</source>
+      <trans-unit id="7d6573fb998f3a1cf1356623b85850d9d10edaa9" datatype="html">
+        <source>Registration</source>
+        <target>רישום</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>    
+      <trans-unit id="1bc26ecc7d37e9c86a1805fb0421eb44f740bbf6" datatype="html">
+        <source>Register-Button</source>
+        <target>פניה להנפקת פרטי גישה</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e8360e1eaf43a92d80dfe7c50d1d7c16741f90f" datatype="html">
+        <source>forgot-user</source>
         <target>שכחתי משתמש</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7aaef09e3d161a9c56527d5308fbdf2403b6a3a6" datatype="html">
-        <source>forgot pass</source>
+      <trans-unit id="febdbd51bb6b482d067a198b12d8a316b5ac3e3a" datatype="html">
+        <source>forgot-pass</source>
         <target>שכחתי סיסמה</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
-        <source>Submit</source>
-        <target>כניסה</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="80cb72b1add3f8d6cd768d8f18c0a9fc4f8556a1" datatype="html">
-        <source>Special title treatment. With supporting text below as a natural lead-in to additional content. Special title treatment. With supporting text below as a natural lead-in to additional content.Special title treatment. With supporting text below as a natural lead-in to additional content. Special title treatment. With supporting text below as a natural lead-in to additional content.</source>
+      <trans-unit id="985f70e90af8dc7004ca3b31514d2f30df671842" datatype="html">
+        <source>Registration-instructions</source>
         <target>לקוח/ה יקר/ה, אם הנך מעונין/ת לצפות בתיק ההשקעות שלך באופן מקוון, אנא לחץ/י על כפתור "פניה להנפקת פרטי גישה".
 נשמח לצרפך לחוג לקוחותינו שנהנים מגישה ישירה למידע על תיק ההשקעות שלהם.
 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9f9d9b836701e0a8068e29c45d5682eeb13afc4b" datatype="html">
-        <source>Special title treatment</source>
-        <target>פניה להנפקת פרטי גישה</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d6c626f095a1405a972976361fb8fe41143b27e9" datatype="html">
         <source>header</source>
-        <target>רישום</target>
+        <target>דנאל</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -77,8 +73,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="e0d44c5a21d97b80b841c1aa2bc73c540efe82c4" datatype="html">
-        <target>כניסה</target>
         <source>secondary-header</source>
+        <target>ניהול תיקי ההשקעות</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -98,6 +94,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/home3/home3.component.ts</context>
           <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d9263bcafbe7c320083bc1d0580d85d6ce18b50" datatype="html">
+        <source>Show-pass</source>
+        <target>הצג סיסמה</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.ts</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
     </body>
