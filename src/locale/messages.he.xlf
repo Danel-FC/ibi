@@ -104,6 +104,30 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="69580f2c2dbf4edf7096820ba8c393367352d774" datatype="html">
+        <source>Terms</source>
+        <target>תנאי שימוש</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
+        <source>Privacy</source>
+        <target>מדיניות פרטיות</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abae41120f732f9c0ffbff0d616d8c617e3a0cc5" datatype="html">
+        <source>Danel</source>
+        <target>דנאל</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

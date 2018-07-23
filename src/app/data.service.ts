@@ -7,4 +7,8 @@ import { User } from './lib/user';
 export class DataService {
   user:User;
   constructor() { }
+
+  login(user:string,pass:string){
+    this.user={};
+  }
 }

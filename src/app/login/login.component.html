@@ -8,27 +8,28 @@
   <div class="login-grid-item">
     <div class="login-subgrid">
       <div class="login-subgrid-input">
-        <input type="email"/>
+        <input type="email" />
       </div>
       <div class="login-subgrid-input">
-        <input type="password"/>
+        <input type="password" />
       </div>
       <div class="login-subgrid-item1">
         <input type="checkbox">
         <label i18n>Show-pass</label>
       </div>
       <div class="login-subgrid-item2">
-        <a href="#" i18n>forgot-user</a> / <a href="#" i18n>forgot-pass</a>
+        <a href="#" i18n>forgot-user</a> /
+        <a href="#" i18n>forgot-pass</a>
       </div>
     </div>
   </div>
   <div class="login-grid-item">
-      <p i18n>Registration-instructions</p>
+    <p i18n>Registration-instructions</p>
   </div>
-  <div class="login-grid-item">
-    <button i18n>Login</button>
+  <div class="login-grid-item login-grid-item-btn">
+    <button i18n (click)="login()">Login</button>
   </div>
-  <div class="login-grid-item">
+  <div class="login-grid-item login-grid-item-btn">
     <button i18n>Register-Button</button>
   </div>
 </div>

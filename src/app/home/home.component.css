@@ -2,7 +2,6 @@
 .menu { grid-area: menu; }
 .content { 
   grid-area: content; 
-  background-color: lightyellow;
 }
 .footer { 
   grid-area: footer; 
@@ -111,4 +110,8 @@
   grid-area: footer-links;
   justify-self: start;
   align-self: center;
+}
+
+.footer-links>a{
+  padding: 0.3em;
 }

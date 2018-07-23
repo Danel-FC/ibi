@@ -4,7 +4,6 @@
     <body>
       <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html">
         <source>Login</source>
-        <target>כניסה</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -16,7 +15,6 @@
       </trans-unit>
       <trans-unit id="7d6573fb998f3a1cf1356623b85850d9d10edaa9" datatype="html">
         <source>Registration</source>
-        <target>רישום</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -61,38 +59,39 @@
         <source>header</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home2/home2.component.ts</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home3/home3.component.ts</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e0d44c5a21d97b80b841c1aa2bc73c540efe82c4" datatype="html">
         <source>secondary-header</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">14</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="69580f2c2dbf4edf7096820ba8c393367352d774" datatype="html">
+        <source>Terms</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home2/home2.component.ts</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">42</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
+        <source>Privacy</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home3/home3.component.ts</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">43</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="abae41120f732f9c0ffbff0d616d8c617e3a0cc5" datatype="html">
+        <source>Danel</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home3/home3.component.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
     </body>
