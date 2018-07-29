@@ -10,7 +10,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7d6573fb998f3a1cf1356623b85850d9d10edaa9" datatype="html">
@@ -38,21 +38,98 @@
         <source>forgot-pass</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="985f70e90af8dc7004ca3b31514d2f30df671842" datatype="html">
         <source>Registration-instructions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1bc26ecc7d37e9c86a1805fb0421eb44f740bbf6" datatype="html">
         <source>Register-Button</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="10ed9137dba3d84f58edd903011d1e5249574ccb" datatype="html">
+        <source>acc-name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f775183fc98a975a4b2cfeb7fc971e5035bc2044" datatype="html">
+        <source>bank-name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="80db030b228587cda6e50284b6b9f8168b83f1f4" datatype="html">
+        <source>policy-name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd8ea45bb35f1bbbc5673c31a9b3185897824106" datatype="html">
+        <source>pf-value</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb849769ee924f68a0ae52fc1fb911013ca51091" datatype="html">
+        <source>yield-soy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e62bda973f0fb583aa03473dc9dafc2f0742ae5" datatype="html">
+        <source>yield-12m</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5af80acd4622533e897373c49091849ca94d307" datatype="html">
+        <source>yield-36m</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f4ef1f56fb134306afa9fec8c28d6bf4ee7edf1" datatype="html">
+        <source>chart-holdings-title</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f76d0c80fedc57ea546b9fb865b1a8969c1e33ba" datatype="html">
+        <source>chart-yields-title</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
           <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48a026e60140c990981a3cdaeab635467112adcd" datatype="html">
+        <source>chart-holdings-link</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0581c20d82ec0108e7b1ae6c51bbfb48d69c8189" datatype="html">
+        <source>chart-yields-link</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d6c626f095a1405a972976361fb8fe41143b27e9" datatype="html">

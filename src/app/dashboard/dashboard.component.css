@@ -1,0 +1,57 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    grid-gap: 1em;
+}
+
+.title{
+    grid-column: 1/2;
+    justify-self: start;
+}
+
+.account-select{
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+.summary{
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gainsboro;
+}
+
+.charts{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.holdings{
+    grid-column: 1/3;
+}
+
+.pf-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 1em;
+}
+
+.chart-title{
+    justify-self: start;
+}
+
+.chart-area{
+    justify-self: center;
+}
+
+.chart-link{
+    justify-self: end;
+}
+
+.summary-title{
+    font-size: 0.7em;
+}
