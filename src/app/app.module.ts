@@ -14,12 +14,17 @@ import { HomeComponent } from './home/home.component';
 import localeHe from '@angular/common/locales/he';
 import localHeExtra from '@angular/common/locales/extra/he';
 import { registerLocaleData } from '@angular/common';
+import { HoldingsChartComponent } from './holdings-chart/holdings-chart.component';
+import { YieldsChartComponent } from './yields-chart/yields-chart.component';
 registerLocaleData(localeHe, 'he-IL', localHeExtra);
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
-  { path: 'dashboard', component: DashboardComponent }
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'holdings', component: PortfolioComponent },
+  { path: 'yields', component: YieldComponent },
+  { path: 'transactions', component: TransactionComponent }
 ];
 
 @NgModule({
@@ -30,11 +35,13 @@ const routes: Routes = [
     YieldComponent,
     TransactionComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    HoldingsChartComponent,
+    YieldsChartComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, { enableTracing: true })
+    RouterModule.forRoot(routes)
   ],
   providers: [ { provide: LOCALE_ID, useValue: 'he' } ],
   bootstrap: [HomeComponent]

@@ -30,10 +30,14 @@
   <div class="charts">
     <div i18n class="chart-title">chart-holdings-title</div>
     <div i18n class="chart-title">chart-yields-title</div>
-    <div class="chart-area">3</div>
-    <div class="chart-area">4</div>
-    <div i18n class="chart-link">chart-holdings-link</div>
-    <div i18n class="chart-link">chart-yields-link</div>
+    <div class="chart-area">
+      <app-holdings-chart></app-holdings-chart>
+    </div>
+    <div class="chart-area">
+      <app-yields-chart></app-yields-chart>
+    </div>
+    <div class="chart-link"><a i18n routerLink="/holdings">chart-holdings-link</a></div>
+    <div class="chart-link"><a i18n routerLink="/yields">chart-yields-link</a></div>
   </div>
   <div class="holdings">holdings</div>
 </div>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-home',
@@ -8,14 +9,14 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public route:ActivatedRoute) { 
+  constructor(public route:ActivatedRoute, public service:DataService) { 
   }
 
   ngOnInit() {
   }
 
   get showNav():boolean{
-    return this.route.snapshot.url.length>0;
+    return this.service.user!=null; //this.route.snapshot.url.length>0;
   }
 
 }
